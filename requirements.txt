@@ -1,0 +1,9 @@
+torch
+transformers
+diffusers
+chromadb
+sentence_transformers
+pillow
+openai
+gradio
+accelerate
