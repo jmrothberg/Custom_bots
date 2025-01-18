@@ -2,6 +2,25 @@
 
 A Gradio-based interface for testing and debugging LLaMA.cpp models in GGUF format, with support for Claude 3 Sonnet integration.
 
+## Environment Setup
+
+Before running the application, set your Anthropic API key as an environment variable:
+
+```bash
+# Linux/Mac
+export ANTHROPIC_API_KEY="your-api-key-here"
+
+# Windows (Command Prompt)
+set ANTHROPIC_API_KEY=your-api-key-here
+
+# Windows (PowerShell)
+$env:ANTHROPIC_API_KEY="your-api-key-here"
+```
+You can also create a `.env` file in the project root and use python-dotenv to load it:
+
+```env
+ANTHROPIC_API_KEY=your-api-key-here
+```
 ## Features
 
 - 🤖 Test multiple GGUF format models
