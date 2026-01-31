@@ -1,11 +1,35 @@
-# Custom_bots
-My custom bots for local LLMs and diffusers.
+# Custom Bots
 
+Custom chatbot interfaces for local LLMs and image generation with diffusion models.
 
+## Features
 
+- **Local LLM Chat**: Interface for chatting with locally-hosted language models
+- **Diffusion Integration**: Generate images using local diffusion models
+- **Customizable Prompts**: Configure system prompts and model parameters
+- **Conversation History**: Save and load chat sessions
 
-👋 Hi, I’m @jmrothberg
-👀 I’m interested in molecular biology, healthcare, and the environment
-🌱 I’m currently learning ... python, LLMs, Nueral networks.
-💞️ I’m looking to collaborate on ... A Game of life with Genetics to control cell fate, and neurons that self wire into working networks that can solve MNEST, and other problems.
-📫 How to reach me ... jonathan.rothberg@gmail.com
+## Requirements
+
+```bash
+pip install torch transformers diffusers gradio pillow
+```
+
+## Usage
+
+```bash
+python custom_bot.py
+```
+
+## Related Projects
+
+- [CodeRunner](https://github.com/jmrothberg/CodeRunner) - Full IDE with multi-backend LLM support
+- [Diffusers](https://github.com/jmrothberg/Diffusers) - MNIST diffusion model training
+
+## Author
+
+**Jonathan M. Rothberg** - [@jmrothberg](https://github.com/jmrothberg)
+
+## License
+
+MIT License
